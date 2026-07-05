@@ -1,21 +1,26 @@
 ## Hi, I'm FerventClavier 👋
 
-Product analyst turned MBA student (XLRI Jamshedpur, PGDM-GM). I spent 3.5 years building and measuring enterprise software before this. I think about **the infrastructure the AI-agent economy will need** — and I build working prototypes of it.
+Product analyst turned MBA student (XLRI Jamshedpur). I think about **the trust infrastructure the AI-agent economy needs** — and I build working prototypes of it.
 
-### 🧭 The Trust Layer for the Agent Economy
+### 🛰️ Realium — money that moves at the speed of verified reality
 
-AI assistants are starting to *do* things for people: spend money, verify work, hold memory, shop, make decisions. Each project below is a working prototype of one piece of trust that's currently missing. **Every one has a live in-browser demo — no installation, just click.**
+India's public works run on a handwritten register; contractors wait 6–18 months for money the state already owes them. **Realium** turns a certified site measurement into a bank-financeable instrument, advanced the next morning, across three layers on one rail:
 
-| Project | In one plain sentence | Live demo | Code |
-|---|---|---|---|
-| **Surety** | A permission slip for your AI assistant, enforced and provable. | [▶ demo](https://ferventclav.github.io/surety.html) | [repo](https://github.com/ferventclav/surety) |
-| **GroundTruth** | Turns real-world work into a signed record a bank will pay against in days, not months. | [▶ demo](https://ferventclav.github.io/groundtruth.html) | [repo](https://github.com/ferventclav/groundtruth) |
-| **Heirloom** | A company's memory, owned by the company — not by its AI vendor. | [▶ demo](https://ferventclav.github.io/heirloom.html) | [repo](https://github.com/ferventclav/heirloom) |
-| **Turnstile** | Tells an online store how much of its traffic is AI shoppers — and how to sell to them. | [▶ demo](https://ferventclav.github.io/turnstile.html) | [repo](https://github.com/ferventclav/turnstile) |
-| **Windtunnel** | Rehearses a price change against thousands of simulated customers before real ones feel it. | [▶ demo](https://ferventclav.github.io/windtunnel.html) | [repo](https://github.com/ferventclav/windtunnel) |
+- **Evidence** — geo-fenced capture + AI quantity estimation + a dual-key certificate (machine evidence *and* an accountable engineer's signature) on a tamper-evident ledger.
+- **Authority** — every certifier and approver acts under a signed, scoped, revocable mandate; every approval is a timestamped, signed event, so the payment queue becomes *attributable*.
+- **Liquidity** — the verified e-invoice is financed: a bank advances 60% at T+1, holds 40% as buffer, and clean settlement history raises the advance rate (50%→85%) — a moat a competitor can't clone.
 
-**🌐 The whole portfolio, explained for non-developers too: [ferventclav.github.io](https://ferventclav.github.io)**
+**🌐 Live site: [realium-core.lovable.app](https://realium-core.lovable.app)** · Built for ReEnvision 5.0 (Human–AI Synergy).
 
-Each project is written in plain English first, with a jargon decoder — because a good idea should be understandable before it's technical. All prototypes are honest concepts (the gap to production is documented in each repo), MIT-licensed, and built by me in partnership with AI development tools.
+| Engine | What it is | Repo |
+|---|---|---|
+| **groundtruth** | Financing engine, reliability flywheel, dual-key certificates — 22 tests + financial-model doc | [repo](https://github.com/ferventclav/groundtruth) |
+| **surety** | Ed25519 (RFC 8032, validated against test vectors), 10-check policy engine, SQLite persistence — 25 tests + threat model | [repo](https://github.com/ferventclav/surety) |
 
-*Interested as a collaborator, critic, or early user? Open an issue on any repo or reach out.*
+Both are open source with test suites and honest prototype-vs-production notes. A hub with two in-browser demos and all sources: **[ferventclav.github.io](https://ferventclav.github.io)**.
+
+### 🧪 Lab
+
+Earlier explorations of the same "trust layer for the agent economy" thesis — [heirloom](https://github.com/ferventclav/heirloom) (portable organizational memory), [turnstile](https://github.com/ferventclav/turnstile) (agent-traffic analytics), [windtunnel](https://github.com/ferventclav/windtunnel) (decision simulation) — each with a live demo in the [lab archive](https://ferventclav.github.io/lab.html).
+
+*Designed with product judgment, built in partnership with AI development tools. Interested as a collaborator, critic, or early user? Open an issue on any repo.*
