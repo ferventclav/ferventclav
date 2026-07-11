@@ -10,7 +10,9 @@ India's public works run on a handwritten register; contractors wait 6–18 mont
 - **Authority** — every certifier and approver acts under a signed, scoped, revocable mandate; every approval is a timestamped, signed event, so the payment queue becomes *attributable*.
 - **Liquidity** — the verified e-invoice is financed: a bank advances 60% at T+1, holds 40% as buffer, and clean settlement history raises the advance rate (50%→85%) — a moat a competitor can't clone.
 
-**🌐 Live site: [realium-core.lovable.app](https://realium-core.lovable.app)** · Built for ReEnvision 5.0 (Human–AI Synergy).
+**🏆 Top 3 at ReEnvision 5.0** (XLRI Digital Transformation Conclave, July 2026) — presented to the conclave's panel of senior technology leaders.
+
+**🌐 Live site: [ferventclav.github.io/realium](https://ferventclav.github.io/realium/)** · mirror: [realium-core.lovable.app](https://realium-core.lovable.app) · full story: [realium repo](https://github.com/ferventclav/realium)
 
 | Engine | What it is | Repo |
 |---|---|---|
