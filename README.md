@@ -1,28 +1,16 @@
-## Hi, I'm FerventClavier 👋
+## Hi, I'm FerventClavier
 
-Product analyst turned MBA student (XLRI Jamshedpur). I think about **the trust infrastructure the AI-agent economy needs** — and I build working prototypes of it.
+I spent 45 months at Darwinbox working with engineering, QA and consultants on clear product specs and release reviews. I'm now doing the PGDM in General Management at XLRI Jamshedpur. Portfolio: **[ferventclav.github.io](https://ferventclav.github.io)**
 
-### 🛰️ Realium — money that moves at the speed of verified reality
+I also build working prototypes of products I think should exist. Each one has a live demo you can click through.
 
-India's public works run on a handwritten register; contractors wait 6–18 months for money the state already owes them. **Realium** turns a certified site measurement into a bank-financeable instrument, advanced the next morning, across three layers on one rail:
-
-- **Evidence** — geo-fenced capture + AI quantity estimation + a dual-key certificate (machine evidence *and* an accountable engineer's signature) on a tamper-evident ledger.
-- **Authority** — every certifier and approver acts under a signed, scoped, revocable mandate; every approval is a timestamped, signed event, so the payment queue becomes *attributable*.
-- **Liquidity** — the verified e-invoice is financed: a bank advances 60% at T+1, holds 40% as buffer, and clean settlement history raises the advance rate (50%→85%) — a moat a competitor can't clone.
-
-**🏆 Top 3 at ReEnvision 5.0** (XLRI Digital Transformation Conclave, July 2026) — presented to the conclave's panel of senior technology leaders.
-
-**🌐 Live site: [ferventclav.github.io/realium](https://ferventclav.github.io/realium/)** · mirror: [realium-core.lovable.app](https://realium-core.lovable.app) · full story: [realium repo](https://github.com/ferventclav/realium)
-
-| Engine | What it is | Repo |
+| Prototype | The problem | Live demo |
 |---|---|---|
-| **groundtruth** | Financing engine, reliability flywheel, dual-key certificates — 22 tests + financial-model doc | [repo](https://github.com/ferventclav/groundtruth) |
-| **surety** | Ed25519 (RFC 8032, validated against test vectors), 10-check policy engine, SQLite persistence — 25 tests + threat model | [repo](https://github.com/ferventclav/surety) |
+| **[Realium](https://github.com/ferventclav/realium)** | Public-works contractors wait months to be paid for finished work. Realium turns site evidence and an engineer's accountable sign-off into a claim a bank will fund, with 60% paid the next day. **3rd of 15 teams at ReEnvision 5.0, XLRI, July 2026.** | [realium](https://ferventclav.github.io/realium/) |
+| **[Heirloom](https://github.com/ferventclav/heirloom)** | A firm's knowledge increasingly lives in an AI vendor's memory. Heirloom keeps it as records the firm owns: sourced, role-scoped and exportable. | [heirloom](https://ferventclav.github.io/heirloom/) |
+| **[Turnstile](https://github.com/ferventclav/turnstile)** | Stores can't tell an AI assistant buying for someone from a scraper. Turnstile sorts the traffic and serves each the right storefront. | [turnstile](https://ferventclav.github.io/turnstile/) |
+| **[Windtunnel](https://github.com/ferventclav/windtunnel)** | Price changes get decided on one forecast. Windtunnel plays the change out 500 times and shows how often it backfires. | [windtunnel](https://ferventclav.github.io/windtunnel/) |
 
-Both are open source with test suites and honest prototype-vs-production notes. A hub with two in-browser demos and all sources: **[ferventclav.github.io](https://ferventclav.github.io)**.
+Realium's engines are in two companion repos with test suites: **[groundtruth](https://github.com/ferventclav/groundtruth)** (dual-key certificates and the 60/40 payout waterfall) and **[surety](https://github.com/ferventclav/surety)** (Ed25519 signing checked against RFC 8032 test vectors, and the approver-mandate rules).
 
-### 🧪 Lab
-
-Earlier explorations of the same "trust layer for the agent economy" thesis — [heirloom](https://github.com/ferventclav/heirloom) (portable organizational memory), [turnstile](https://github.com/ferventclav/turnstile) (agent-traffic analytics), [windtunnel](https://github.com/ferventclav/windtunnel) (decision simulation) — each with a live demo in the [lab archive](https://ferventclav.github.io/lab.html).
-
-*Designed with product judgment, built in partnership with AI development tools. Interested as a collaborator, critic, or early user? Open an issue on any repo.*
+*Designed by me, built with AI development tools. Feedback welcome: open an issue on any repo.*
